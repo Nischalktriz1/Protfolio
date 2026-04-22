@@ -10,7 +10,7 @@ const EMOJIS = ['🛒', '🎨', '🤖', '📊', '📱', '🚀'];
 /* ---------- HARD-CODED DATA ---------- */
 const portfolioData = {
   personal: {
-    name: "Nishcal Khatri",
+    name: "Nischal Khatri",
     title: "AI Student at Softwarica College",
     tagline: "19 years old · Building innovative AI solutions and digital experiences.",
     email: "nishcal@example.com",
