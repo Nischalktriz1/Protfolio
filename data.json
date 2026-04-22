@@ -1,0 +1,130 @@
+{
+  "personal": {
+    "name": "Alex Rivera",
+    "title": "Full-Stack Developer & UI Designer",
+    "tagline": "I build beautiful, high-performance digital experiences.",
+    "email": "alex@example.com",
+    "phone": "+1 (555) 123-4567",
+    "location": "San Francisco, CA",
+    "avatar": "",
+    "resume": "#",
+    "social": {
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com",
+      "twitter": "https://twitter.com",
+      "dribbble": "https://dribbble.com"
+    }
+  },
+  "about": {
+    "bio": "I'm a passionate full-stack developer with 5+ years of experience crafting clean, user-centric digital products. I specialize in React, Node.js, and modern CSS — turning complex problems into elegant solutions.",
+    "highlights": [
+      "5+ Years Experience",
+      "50+ Projects Delivered",
+      "20+ Happy Clients",
+      "3 Design Awards"
+    ],
+    "skills": [
+      { "name": "React / Next.js", "level": 92 },
+      { "name": "Node.js / Express", "level": 85 },
+      { "name": "UI/UX Design", "level": 80 },
+      { "name": "TypeScript", "level": 88 },
+      { "name": "PostgreSQL / MongoDB", "level": 78 },
+      { "name": "Docker / DevOps", "level": 70 }
+    ]
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "E-Commerce Platform",
+      "description": "A full-featured online store with real-time inventory, Stripe payments, and an admin dashboard. Built for scale with a microservices architecture.",
+      "category": "fullstack",
+      "tags": ["React", "Node.js", "PostgreSQL", "Stripe"],
+      "image": "",
+      "liveUrl": "#",
+      "githubUrl": "#",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Design System Library",
+      "description": "A comprehensive React component library with 60+ accessible components, dark mode support, and full Storybook documentation.",
+      "category": "frontend",
+      "tags": ["React", "TypeScript", "Storybook", "CSS"],
+      "image": "",
+      "liveUrl": "#",
+      "githubUrl": "#",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": "AI Task Manager",
+      "description": "A productivity app powered by GPT-4 that auto-categorizes tasks, estimates durations, and suggests optimal scheduling based on your habits.",
+      "category": "fullstack",
+      "tags": ["Next.js", "OpenAI API", "Prisma", "Tailwind"],
+      "image": "",
+      "liveUrl": "#",
+      "githubUrl": "#",
+      "featured": true
+    },
+    {
+      "id": 4,
+      "title": "Real-Time Analytics Dashboard",
+      "description": "A live data visualization dashboard with WebSocket integration, interactive charts, and customizable widget layouts.",
+      "category": "frontend",
+      "tags": ["Vue.js", "D3.js", "WebSockets", "Express"],
+      "image": "",
+      "liveUrl": "#",
+      "githubUrl": "#",
+      "featured": false
+    },
+    {
+      "id": 5,
+      "title": "Mobile Banking App UI",
+      "description": "A sleek, accessible banking app UI/UX prototype with biometric authentication flows, spending analytics, and multi-currency support.",
+      "category": "design",
+      "tags": ["Figma", "Prototyping", "UI/UX", "Accessibility"],
+      "image": "",
+      "liveUrl": "#",
+      "githubUrl": "#",
+      "featured": false
+    },
+    {
+      "id": 6,
+      "title": "REST API Boilerplate",
+      "description": "A production-ready Node.js API starter with JWT auth, rate limiting, Swagger docs, and automated testing pipeline.",
+      "category": "backend",
+      "tags": ["Node.js", "Express", "MongoDB", "Jest"],
+      "image": "",
+      "liveUrl": "#",
+      "githubUrl": "#",
+      "featured": false
+    }
+  ],
+  "experience": [
+    {
+      "company": "Nova Tech Solutions",
+      "role": "Senior Frontend Engineer",
+      "period": "2022 – Present",
+      "description": "Lead developer for the company's SaaS product. Architected the React frontend from scratch, reducing load time by 40% and improving user retention."
+    },
+    {
+      "company": "Pixel & Code Studio",
+      "role": "Full-Stack Developer",
+      "period": "2020 – 2022",
+      "description": "Built and maintained 15+ client websites and web apps. Introduced automated testing, cutting QA time in half."
+    },
+    {
+      "company": "Freelance",
+      "role": "UI/UX Designer & Developer",
+      "period": "2018 – 2020",
+      "description": "Collaborated with startups to design and develop their MVPs. Delivered projects on time with measurable business impact."
+    }
+  ],
+  "categories": [
+    { "id": "all", "label": "All Work" },
+    { "id": "fullstack", "label": "Full-Stack" },
+    { "id": "frontend", "label": "Frontend" },
+    { "id": "backend", "label": "Backend" },
+    { "id": "design", "label": "Design" }
+  ]
+}
