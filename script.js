@@ -16,7 +16,7 @@ const portfolioData = {
     email: "nishcal@example.com",
     phone: "+977 98xxxxxxxx",
     location: "Kathmandu, Nepal",
-    avatar: "",
+    avatar: "profile.jpg",
     resume: "#",
     social: {
       github: "https://github.com/Nischalktriz1",
