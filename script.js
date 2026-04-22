@@ -7,22 +7,104 @@
 /* ---------- PROJECT THUMB EMOJIS ---------- */
 const EMOJIS = ['🛒', '🎨', '🤖', '📊', '📱', '🚀'];
 
+/* ---------- HARD-CODED DATA ---------- */
+const portfolioData = {
+  personal: {
+    name: "Nishcal Khatri",
+    title: "AI Student at Softwarica College",
+    tagline: "19 years old · Building innovative AI solutions and digital experiences.",
+    email: "nishcal@example.com",
+    phone: "+977 98xxxxxxxx",
+    location: "Kathmandu, Nepal",
+    avatar: "",
+    resume: "#",
+    social: {
+      github: "https://github.com/Nischalktriz1",
+      linkedin: "https://linkedin.com",
+      twitter: "https://twitter.com",
+      dribbble: "https://dribbble.com"
+    }
+  },
+  about: {
+    bio: "I'm a passionate AI student with a strong interest in machine learning, web development, and creating innovative digital solutions. Currently studying at Softwarica College and eager to apply my skills to real-world projects.",
+    highlights: [
+      "AI/ML Enthusiast",
+      "Web Development",
+      "Problem Solver",
+      "Quick Learner"
+    ],
+    skills: [
+      { "name": "Python", "level": 85 },
+      { "name": "JavaScript", "level": 80 },
+      { "name": "HTML/CSS", "level": 90 },
+      { "name": "Machine Learning", "level": 75 },
+      { "name": "React", "level": 70 },
+      { "name": "Data Analysis", "level": 78 }
+    ]
+  },
+  projects: [
+    {
+      id: 1,
+      title: "AI Chatbot",
+      description: "An intelligent chatbot powered by natural language processing for customer service automation.",
+      category: "fullstack",
+      tags: ["Python", "NLP", "TensorFlow", "Flask"],
+      image: "",
+      liveUrl: "#",
+      githubUrl: "#",
+      featured: true
+    },
+    {
+      id: 2,
+      title: "Portfolio Website",
+      description: "A modern, responsive portfolio website built with HTML, CSS, and JavaScript.",
+      category: "frontend",
+      tags: ["HTML", "CSS", "JavaScript", "Responsive Design"],
+      image: "",
+      liveUrl: "#",
+      githubUrl: "#",
+      featured: true
+    },
+    {
+      id: 3,
+      title: "Data Analysis Dashboard",
+      description: "Interactive dashboard for visualizing and analyzing complex datasets with real-time updates.",
+      category: "fullstack",
+      tags: ["Python", "Pandas", "Plotly", "Streamlit"],
+      image: "",
+      liveUrl: "#",
+      githubUrl: "#",
+      featured: true
+    }
+  ],
+  experience: [
+    {
+      company: "Softwarica College",
+      role: "AI Student",
+      period: "2023 – Present",
+      description: "Currently pursuing AI studies with focus on machine learning, deep learning, and practical applications of AI technology."
+    }
+  ],
+  categories: [
+    { "id": "all", "label": "All Work" },
+    { "id": "fullstack", "label": "Full-Stack" },
+    { "id": "frontend", "label": "Frontend" },
+    { "id": "backend", "label": "Backend" },
+    { "id": "design", "label": "Design" }
+  ]
+};
+
 /* ---------- LOAD DATA & INIT ---------- */
 document.addEventListener('DOMContentLoaded', () => {
-  fetch('data.json')
-    .then(r => r.json())
-    .then(data => {
-      populateHero(data.personal);
-      populateAbout(data.about);
-      populateProjects(data.projects, data.categories);
-      populateExperience(data.experience);
-      populateContact(data.personal);
-      populateFooter(data.personal);
-      initScrollReveal();
-      initNavHighlight();
-      initSkillBars();
-    })
-    .catch(err => console.error('Failed to load data.json:', err));
+  populateHero(portfolioData.personal);
+  populateAbout(portfolioData.about);
+  populateProjects(portfolioData.projects, portfolioData.categories);
+  populateExperience(portfolioData.experience);
+  populateContact(portfolioData.personal);
+  populateFooter(portfolioData.personal);
+  initScrollReveal();
+  initNavHighlight();
+  initSkillBars();
 
   initNavbar();
   initThemeToggle();
